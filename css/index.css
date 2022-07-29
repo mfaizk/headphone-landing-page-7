@@ -1,0 +1,148 @@
+
+*{
+    margin-left: 10px;
+    padding: 0;
+}
+
+body nav{
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items{
+    display: flex;
+    height: 5vh;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin: 50px;
+    font-size: 25px;
+    font-family: 'Poppins';
+    font-weight: 200;
+}
+.active-item{
+    color: #fe5e35;
+    font-weight: 1000;
+}
+
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+
+    align-items: flex-start;
+}
+
+.left-section h3{
+    display: inline;
+    font-size: 50px;
+    font-weight: 400;
+}
+.left-section h3 img{
+    display: inline;
+}
+
+.left-section h1{
+    font-size: 5rem;
+    font-weight: 400;
+    display: inline;
+    position: relative;
+    bottom: 100px;
+}
+
+.sub-headlines{
+    position: relative;
+    bottom: 150px;
+    font-size: 25px;
+    left: 50px;
+    
+
+}
+.sub-headline img{
+    background-color: #fe5e35;
+    border-radius: 20px;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
+
+.text{
+    position: relative;
+    bottom: 100px;
+    color: #758283;
+}
+
+.action-btns{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.action-btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 50px;
+    background-color: #fe5e35;
+    color: #FFFFFF;
+    font-family: "Poppins";
+position: relative;
+bottom: 100px;
+    
+}
+
+
+.right-section{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+.discount-content {
+  position: relative;
+  top: 300px;
+    right:10px;
+    color: #FFFFFF;
+}
+.discount-content h1{
+    font-size: 50px;
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    font-family: "Poppins";
+}
+.discount-content h4{
+    font-family: 'Fredoka One' sans-serif;
+}
+
+.discount{
+    z-index: -1;
+    position: relative;
+    top: 450px;
+    right:60px;
+}
+[alt="headphone"]{
+    position: relative;
+    bottom: 300px;
+    z-index: -3;
+}
+
+.headphone-btn{
+    position: relative;
+    bottom: 250px;
+}
